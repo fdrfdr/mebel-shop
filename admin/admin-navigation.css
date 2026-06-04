@@ -1,0 +1,69 @@
+:root { 
+    --yandex-yellow: #ffcc00; 
+}
+
+.sidebar { 
+    background: #fff !important; 
+    min-height: 100vh; 
+    border-right: 1px solid #dee2e6 !important; 
+    z-index: 1000; 
+    padding: 1.5rem !important;
+}
+
+.sidebar .nav-link { 
+    color: #4b5563 !important; 
+    border-radius: 12px !important; 
+    padding: 12px 18px !important; 
+    margin-bottom: 5px !important; 
+    transition: 0.3s !important; 
+    font-weight: 500 !important; 
+    display: flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+}
+
+.sidebar .nav-link:hover { 
+    background: #f3f4f6 !important; 
+    color: #111827 !important; 
+}
+
+.sidebar .nav-link.active { 
+    background: var(--yandex-yellow) !important; 
+    color: #000 !important; 
+    font-weight: 700 !important; 
+    box-shadow: 0 4px 12px rgba(255, 204, 0, 0.2) !important; 
+}
+
+.sidebar .nav-link i {
+    font-size: 1.15rem !important;
+    margin-right: 1rem !important;
+    line-height: 1;
+}
+
+.sidebar hr {
+    margin: 1.5rem 0 !important;
+    opacity: 0.1 !important;
+}
+
+.sidebar .nav-link.text-danger {
+    color: #dc3545 !important;
+    margin-top: 10px;
+}
+
+.sidebar .nav-link.text-danger:hover {
+    background: #fff5f5 !important;
+    color: #a52834 !important;
+}
+
+.sidebar .nav-link.text-danger i {
+    font-size: 1.2rem !important;
+}
+
+.sidebar .nav-link.active .badge {
+    background-color: #000 !important; 
+    color: #fff !important;
+}
+
+.sidebar .nav-link .badge {
+    transition: 0.3s;
+}
